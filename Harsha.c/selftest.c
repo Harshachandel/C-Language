@@ -312,14 +312,101 @@
 
 //******************************************************************************************************************************************************************************************************* */
 
-#include <stdio.h>
+//printing 1 to 10 (with for loop) : ---
 
-int main(){
+// #include <stdio.h>
+
+// int main(){
+
+// for(int i = 1 ; i <= 10 ; i++){
+
+// printf("%d ",i);
+
+// }
+
+//     return 0 ; 
+// }
 
 
 
+// (with while loop) : ---
 
 
-    return 0 ; 
-}
+// #include <stdio.h>
+
+// int main(){
+
+// int a = 1 ; 
+
+// while(a<=10){
+
+// printf("%d ",a);
+// a++;
+
+// }
+
+
+//     return 0 ; 
+// }
+
+
+//printing 10 to 1 (with for loop)  : ---
+
+
+// #include <stdio.h>
+
+// int main(){
+
+// for(int i = 10 ; i >= 1 ; i-- ){
+
+// printf("%d ",i);
+
+// }
+
+//     return 0;
+// }
+
+
+
+// (with while loop) : ---
+
+// #include <stdio.h>
+
+// int main(){
+
+// int a = 10 ; 
+
+// while(a>=1){
+
+// printf("%d ",a);
+// a--;
+
+// }
+
+//     return 0; 
+// }
+
+
+// printing table by for loop : --
+
+
+// #include <stdio.h>
+
+// int main(){
+
+// int n ; 
+// printf("Which table do you want  : ");
+// scanf("%d",&n);
+
+
+// for(int i = 1 ; i <= 10 ; i++ ){
+
+// printf("%d X %d = %d\n",n,i,n*i);
+
+// }
+
+//     return 0 ; 
+// }
+
+
 

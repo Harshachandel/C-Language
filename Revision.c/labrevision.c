@@ -281,8 +281,231 @@
 
 
 
+//Table of n : ---
 
 
+// #include <stdio.h>
+// int main(){
+
+// int n ; 
+// printf("Enter a number for table : ");
+// scanf("%d",&n);
+
+// for(int i = 1 ; i <= 10 ; i++){
+
+// printf("%d X %d = %d \n",n,i,n*i);
+
+// }
+
+//     return 0 ; 
+// }
+
+
+
+// Write a Program to print 1 to 10 using a while loop : ---
+
+
+// #include <stdio.h>
+// int main(){
+
+// for(int i = 1 ; i <= 10 ; i++ ){
+
+// printf("%d ",i);
+
+// }
+
+
+// }
+
+
+
+// Write a Program to print 10 to 1 using a while loop : ---
+
+
+// #include <stdio.h>
+
+// int main(){
+
+// for(int i = 10 ; i >= 1 ; i--){
+
+// printf("%d ",i);
+
+// }
+
+// }
+
+
+// Write a Program to print 1 to N using a while loop : ---
+
+
+// #include <stdio.h>
+// int main(){
+
+// int n ; 
+// printf("Enter a number : ");
+// scanf("%d",&n);
+
+// for(int i = 1 ; i <= n ; i++){
+
+// printf("%d ",i);
+
+// }
+
+//     return 0 ; 
+// }
+
+
+
+// Write a Program to print odd numbers from 1 to N using a while loop : ---
+
+
+// #include <stdio.h>
+
+// int main(){
+
+// int n ; 
+// printf("Enter a number : ");
+// scanf("%d",&n);
+
+// int i ; 
+
+// for(i = 1  ; i <= n ; i++ ){
+
+
+// if(i%2!=0){
+// printf("%d ",i);
+// }
+// }
+
+//     return 0 ; 
+// }
+
+
+
+// printing 1 to n numbers (with for loop) : ---
+
+
+// #include <stdio.h>
+
+// int main(){
+
+// int n ; 
+// printf("Enter a number : ");
+// scanf("%d",&n);
+
+// for(int i = 1 ; i <= n ; i++){
+
+// printf("%d ",i);
+
+// }
+
+
+//     return 0 ; 
+// }
+
+
+
+// printing N to 1 number : ---
+
+
+// #include <stdio.h>
+// int main(){
+
+// int n ; 
+// printf("Enter a number : ");
+// scanf("%d",&n);
+
+// for(int i = n ; i >= 1 ; i-- ){
+
+// printf("%d ",i);
+
+// }
+
+// }
+
+
+
+// Write a Program to print odd numbers from N to 1 using a while loop : ---
+
+
+// #include <stdio.h>
+
+// int main(){
+
+// int n ; 
+// printf("Enter a number : ");
+// scanf("%d",&n);
+
+// for(int i = n ; i >= 1  ; i--){
+
+// if(i%2!=0){
+
+// printf("%d ",i);
+
+// }
+
+// }
+
+//     return 0 ;
+// }
+
+
+
+// finding a leap year bettwen to years : ---
+
+
+// #include <stdio.h>
+// int main(){
+
+// int first_year ; 
+// printf("Enter the first_year : ");
+// scanf("%d",&first_year);
+
+// int last_year ;
+// printf("Enter the last_year : ");
+// scanf("%d",&last_year);
+
+
+// for(int i = first_year ; i <= last_year ; i++ ){
+
+// if(i%4==0){
+
+// printf("%d ",i);
+
+// }
+
+// }
+
+
+//     return 0 ;
+// }
+
+
+
+// printing even numbers from 2 to N : ---
+
+
+// #include <stdio.h>
+
+// int main(){
+
+// int n ; 
+// printf("Enter the number : ");
+// scanf("%d",&n);
+
+
+// for(int i = 1 ; i <= n ; i++){
+
+// if(i%2==0){
+
+// printf("%d ",i);
+
+// }
+
+// }
+
+//     return 0 ;
+// }
 
 
 

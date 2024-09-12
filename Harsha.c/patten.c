@@ -207,33 +207,33 @@
 // 1        1
 
 
-// #include <stdio.h>
-// int main(){
+#include <stdio.h>
+int main(){
 
-// for(int row = 0 ; row <= 5 ; row++ ){
-// for(int col = 1 ; col <= 5 - row; col++ ){
+for(int row = 0 ; row <= 5 ; row++ ){
+for(int col = 1 ; col <= 5 - row; col++ ){
 
-// printf("%d",col);
-// }
+printf("%d",col);
+}
 
-// for(int space = 1 ; space <= row ; space++ ){
-// printf(" ");
-// }
-// for(int space = 1 ; space <= row ; space++ ){
-// printf(" ");
-// }
+for(int space = 1 ; space <= row ; space++ ){
+printf(" ");
+}
+for(int space = 1 ; space <= row ; space++ ){
+printf(" ");
+}
 
-// for(int col = 5 - row  ; col >= 1 ; col--){
+for(int col = 5 - row  ; col >= 1 ; col--){
 
-// printf("%d",col);
+printf("%d",col);
 
-// }
+}
 
-// printf("\n");
+printf("\n");
 
-// }
-//     return 0 ; 
-// }
+}
+    return 0 ; 
+}
 
 
 //------------------------------------------------------------------------------------------------------------

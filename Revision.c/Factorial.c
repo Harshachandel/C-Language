@@ -26,32 +26,50 @@
 
 //********************************************************************************************************************************************* */
 
-//printing the table by loop : ---
 
+//printing the table by loop : ---
 
 // #include <stdio.h>
 
 // int main(){
 
 // int n ; 
-// printf("Enter a number for table of it :  ");
+// printf("Enter a number : ");
 // scanf("%d",&n);
 
-// int multi = n ; 
-// int a ;
+// for(int i = 1 ; i <= 10 ; i++){
 
-// int e = 1 ;
-
-
-// for(int i = 1 ; i<=20 ; i++){
-
-// multi*=i;
+// printf("%d X %d = %d \n",n,i,n*i);
 
 // }
-//  printf("%d is ",multi);
 
 //     return 0 ; 
 // }
 
+
+
+//54321
+//4321
+//321
+//21
+//1   
+
+
+// #include <stdio.h>
+// int main(){
+
+// for(int i = 1 ; i <= 5 ; i++){
+
+// for(int j = 5 ; j >= i ; j--){
+
+// printf("%d",j);
+
+// }
+
+// printf("\n");
+// }
+
+//     return 0 ; 
+// }
 
 
